@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://bstopboard001"]
+
+[ext_resource type="Script" uid="uid://cmnayg1hqingf" path="res://scripts/game_board.gd" id="1_board"]
+
+[node name="Root" type="Node3D" unique_id=2069991910]
+script = ExtResource("1_board")
