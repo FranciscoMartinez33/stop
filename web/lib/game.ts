@@ -166,7 +166,7 @@ export function pickCard(
     return "Not your turn to pick";
   if (!state.cardOptions) return "No card options";
   const s = clone(state);
-  s.topic = s.cardOptions[idx];
+  s.topic = state.cardOptions[idx];
   s.cardOptions = null;
   s.blocked = [];
   s.lastMove = null;
