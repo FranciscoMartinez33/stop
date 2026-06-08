@@ -3,3 +3,10 @@
 /android/
 .env
 CLAUDE.md
+
+# Node / Next.js
+node_modules/
+web/node_modules/
+web/.next/
+web/.env.local
+.env.local
