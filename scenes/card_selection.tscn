@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dtbiht4ou6s0f"]
+
+[ext_resource type="Script" uid="uid://bc2qhwtnxa3v8" path="res://scenes/card_selection.gd" id="1_cardsel"]
+
+[node name="CardSelection" type="Node3D" unique_id=1033182924]
+script = ExtResource("1_cardsel")

@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Stop"
-run/main_scene="res://scenes/main.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameState="*res://autoload/game_state.gd"
 
 [physics]
 
